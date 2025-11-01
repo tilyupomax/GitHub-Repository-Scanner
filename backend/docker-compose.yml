@@ -1,0 +1,15 @@
+services:
+  backend:
+    build:
+      context: .
+      target: production
+    image: githubscanner-backend
+    environment:
+      NODE_ENV: local
+      PORT: 4200
+      FRONTEND_URL: http://localhost:3000
+      GITHUB_TOKEN: ''
+      REPOSITORIES_TO_FETCH: '["repoA","repoB","repoC"]'
+    ports:
+      - '4200:4200'
+    restart: unless-stopped
