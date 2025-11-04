@@ -109,6 +109,10 @@ For detailed information about each component:
 - [Backend Documentation](./backend/README.md) - API setup, GraphQL schema, and architecture details
 - [Frontend Documentation](./front/README.md) - UI components, routing, and data flow
 
+### System design of application
+<img width="1402" height="601" alt="image" src="https://github.com/user-attachments/assets/a6121871-5386-4521-9912-d35a775afbb7" />
+
+
 ## 🔑 Environment Variables
 
 ### Backend
